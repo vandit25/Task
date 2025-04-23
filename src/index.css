@@ -3,6 +3,9 @@
 body{
   font-family: 'Inter', sans-serif;
   font-size: 11.14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
 }
 h1{
   @apply font-semibold text-[#4D4D4D]  ;
@@ -17,7 +20,7 @@ h1{
   @apply w-[208.12px] flex flex-col items-center justify-center shadow-[2.78px] rounded-[5.57px] shadow-[#ABBED1];
 }
 .footerLi{
-  @apply text-[#fff] text-[9.74px];
+ @apply text-[#fff] text-[9.74px];
 }
 @media (max-width: 480px) {
   p{
@@ -26,4 +29,7 @@ h1{
   h1{
     font-size: 12.02px;
   }
-}
+  img{
+    
+  }
+} 

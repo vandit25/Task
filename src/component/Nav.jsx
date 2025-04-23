@@ -3,7 +3,7 @@ import Logo from '../assets/Logo.png'
 
 function Nav() {
   return (
-    <div className='h-[58.76px] w-[100%]  flex justify-around items-center'>
+    <div className='h-[58.76px] w-[100vw]  flex justify-around items-center max-w-[1002px]'>
         <img srcSet={Logo} alt="Logo" className='h-[16.71px] w-[107.54px]'/>
         <div className='h-[35.49px] w-[650.48px] flex items-center justify-end'>
             <div className='h-[17px] w-[307.82px] flex items-center justify-between mr-[9.74px]'>

@@ -10,7 +10,7 @@ import ClientLogo6 from '../assets/Logo (6).png'
 
 function Clients() {
   return (
-    <div className='h-[132.92px] w-[100%] flex-col flex justify-between items-center mt-[27.84px]'>  
+    <div className='h-[132.92px] w-[100vw] flex-col flex justify-between items-center mt-[27.84px]  max-w-[1002px]'>  
       <div className='h-[53.57px] w-[772.64px]'>
         <div className='w-[100%] h-[31px] flex justify-center items-center'>
             <h1 className='text-[25.06px]'>Our Clients</h1>
@@ -19,14 +19,14 @@ function Clients() {
             <p className='text-[#717171]'>We have been working with some Fortune 500+ clients</p>
         </div>
       </div>
-      <div className='h-[68.21px] w-[801.87px] xs:w-[384.61px]  flex justify-between items-center'>
-        <img src={ClientLogo}/>
-        <img src={ClientLogo1}/>
-        <img src={ClientLogo2}/>
-        <img src={ClientLogo3}/>
-        <img src={ClientLogo4}/>
-        <img src={ClientLogo5}/>
-        <img src={ClientLogo6}/>  
+      <div className='h-[68.21px] w-[801.87px] md: max-sm:w-[384.61px]  flex justify-between items-center'>
+        <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo}/>
+        <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo1}/>
+        <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo2}/>
+        <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo3}/>
+        <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo4}/>
+        <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo5}/>
+        <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo6}/>  
       </div>
     </div>
   )

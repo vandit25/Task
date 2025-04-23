@@ -3,7 +3,7 @@ import Illustration from '../assets/illustration.png'
 
 function Banner() {
   return (
-    <div className='h-[416.95px] w-[100%] bg-[#F5F7FA] flex justify-around items-center'>
+    <div className='h-[416.95px] w-[100vw] bg-[#F5F7FA] flex justify-around items-center max-w-[1002px]'>
       <div className='h-[192.9px] w-[457.32px]'>
         <div>
           <h1 className='text-[#4D4D4D] text-[44.55px] font-semibold'>Lessons and insights</h1>

@@ -13,18 +13,18 @@ import './App.css'
 
 function App() {
   return (
-    <>
-    <Nav/>
-    <Banner/>
-    <Clients/>
-    <Community/>
-    <Unlock/>
-    <Achievements/>
-    <Calender/>
-    <Customer/>
-    <Updates/>
-    <Footer/>
-    </>
+    <div className='contaner'>
+      <Nav/>
+      <Banner/>
+      <Clients/>
+      <Community/>
+      <Unlock/>
+      <Achievements/>
+      <Calender/>
+      <Customer/>
+      <Updates/>
+      <Footer/>
+    </div>
   )
 }
 
