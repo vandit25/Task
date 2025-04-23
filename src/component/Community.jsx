@@ -6,8 +6,8 @@ import MemberIcon3 from '../assets/member Icon 3.png'
 function Community() {
   return (
     <div className='w-[100vw] h-auto mt-[27.84px] max-w-[1002px] md: max-sm:w-[480px]'>
-        <div className='w-[100%] h-[95px] md: max-sm:w-[100px] flex justify-center items-center'>
-            <div className='w-[377.27px] h-[100%]'>
+        <div className='w-[100%] h-[95px]  flex justify-center items-center'>
+            <div className='w-[377.27px] h-[100%] md: max-sm:w-[100px]'>
                 <h1 className='text-[25.06px] font-semibold flex justify-center text-center align-text-top text-[#4D4D4D]'>Manage your entire community in a single system</h1>
                 <p className='flex justify-center items-center text-[#717171]'>Who is Nextcent suitable for?</p>
             </div> 

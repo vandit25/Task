@@ -6,7 +6,7 @@ import social2 from '../assets/Social Icons 3.png'
 import social3 from '../assets/Social Icons.png'
 function Footer() {
   return (
-    <div className='w-[100vw] h-[438.53px] mt-[42.37px] max-w-[1002px]'>
+    <div className='w-[100vw] h-[438.53px] mt-[42.37px] max-w-[1002px] flex-wrap'>
       <div className='w-[100vw] h-[209.31px] flex flex-col justify-around items-center bg-[#F5F7FA] max-w-[1002px]'>
         <h1 className='text-[44.55px] text-center'>Pellentesque suscipit<br></br> fringilla libero eu.</h1>
         <button className='btn w-[124.25px] h-[36.49px]'>Get a Demo <i class="fa-solid fa-arrow-right"></i> </button>
@@ -17,10 +17,10 @@ function Footer() {
             <p className='text-[#FFFF] text-[9.75px] font-normal'>Copyright © 2020 Landify UI Kit.</p>
             <p className='text-[#FFFF] text-[9.75px] font-normal'>All rights reserved</p>
             <div className='h-[22.27] w-[122.50px] flex justify-between'>
-                <img src={social2} alt="" />
-                <img src={social1} alt="" />
-                <img src={social} alt="" />
-                <img src={social3} alt="" />
+                <img className='max-sm:w-[18px] max-sm:h-[10px]' src={social2} alt="" />
+                <img className='max-sm:w-[18px] max-sm:h-[10px]' src={social1} alt="" />
+                <img className='max-sm:w-[18px] max-sm:h-[10px]' src={social} alt="" />
+                <img className='max-sm:w-[18px] max-sm:h-[10px]' src={social3} alt="" />
             </div>
         </div>
         <div className='w-[442px] h-[140.12px] flex justify-between'>
@@ -52,7 +52,7 @@ function Footer() {
                 <div className='w-[100%] h-[20px]'>
                     <p className='text-[13.92px] text-[#fff] font-semibold'>Stay up to date</p>
                 </div>
-                <input className='w-[177.50px] h-[27.84px] bg-[#717171] rounded-[5px] text-[#ffff]' type="text" placeholder='Your email address'/>
+                <input className=' h-[27.84px] bg-[#717171] rounded-[5px] text-[#ffff] md: max-sm:w-[85px]' type="text" placeholder='Your email address'/>
             </div>
         </div>
       </div>

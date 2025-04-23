@@ -16,7 +16,7 @@ function Achievements() {
             <div className='w-[100%] h-[43px] flex justify-between items-center'>
                 <div className='w-[177.5px] h-[100%] flex justify-between items-center'>
                     <div className='w-[33.41px] h-[33.41px]'>
-                        <img src={icone}/>
+                        <img className='max-sm:w-[16px] max-sm:h-[16px]'  src={icone}/>
                     </div>
                     <div className='w-[132.95px] h-[100%]'>
                         <h3 className='text-[19.49px] font-bold text-[#4D4D4D]'>2,245,341</h3>   
@@ -25,7 +25,7 @@ function Achievements() {
                 </div>
                 <div className='w-[177.5px] h-[100%] flex justify-between items-center'>
                     <div className='w-[33.41px] h-[33.41px]'>
-                        <img src={icone2}/>
+                        <img className='max-sm:w-[16px] max-sm:h-[16px]'  src={icone2}/>
                     </div>
                     <div className='w-[132.95px] h-[100%]'>
                         <h3 className='text-[19.49px] font-bold text-[#4D4D4D]'>46,328</h3>   
@@ -36,7 +36,7 @@ function Achievements() {
             <div className='w-[100%] h-[43px] flex justify-between items-center'>
                 <div className='w-[177.5px] h-[100%] flex justify-between items-center'>
                     <div className='w-[33.41px] h-[33.41px]'>
-                        <img src={icone3}/>
+                        <img className='max-sm:w-[16px] max-sm:h-[16px]'  src={icone3}/>
                     </div>
                     <div className='w-[132.95px] h-[100%]'>
                         <h3 className='text-[19.49px] font-bold text-[#4D4D4D]'>828,867</h3>   
@@ -45,7 +45,7 @@ function Achievements() {
                 </div>
                 <div className='w-[177.5px] h-[100%] flex justify-between items-center'>
                     <div className='w-[33.41px] h-[33.41px]'>
-                        <img src={icone4}/>
+                        <img className='max-sm:w-[16px] max-sm:h-[16px]'  src={icone4}/>
                     </div>
                     <div className='w-[132.95px] h-[100%]'>
                         <h3 className='text-[19.49px] font-bold text-[#4D4D4D]'>46,328</h3>   
