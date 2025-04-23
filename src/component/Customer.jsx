@@ -10,7 +10,7 @@ import ClientLogo6 from '../assets/Logo (6).png'
 
 function Customer() {
   return (
-    <div className='w-[100%] h-[271.47px] flex justify-around items-center bg-[#F5F7FA] mt-[33.41px] max-w-[1002px]  md: max-sm:w-[100vw]'>
+    <div className='w-[100vw] h-[271.47px] flex justify-around items-center bg-[#F5F7FA] mt-[33.41px] max-w-[1002px]  md: max-sm:w-[100vw]'>
       <img className='md: max-sm:w-[108px] max-sm:h-[108px]' src={img} alt="" />
       <div className='w-[520.66px] md: max-sm:w-[250px] h-[226.39px] justify-between'>
         <p className='text-[#717171] flex-wrap'>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>

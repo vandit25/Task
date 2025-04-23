@@ -23,7 +23,7 @@ function Footer() {
                 <img className='max-sm:w-[18px] max-sm:h-[10px]' src={social3} alt="" />
             </div>
         </div>
-        <div className='w-[442px] h-[140.12px] flex justify-between'>
+        <div className='w-[442px] h-[140.12px] flex justify-between md: max-sm:w-[212px]'>
             <div className='w-[111.37px] h-[140.12px] flex flex-col justify-between'>
                 <div className='w-[100%] h-[20px]'>
                     <p className='text-[13.92px] text-[#fff] font-semibold'>Company</p>

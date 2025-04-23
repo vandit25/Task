@@ -7,7 +7,7 @@ import img3 from '../assets/image 20.png'
 function Updates() {
   return (
     <div className='w-[100vw] h-[354.51px] flex flex-col justify-center items-center mt-[33.41px] max-w-[1002px]'>
-        <div className='w-[772.64px] h-[87.57px] flex flex-col justify-center items-center'>
+        <div className='w-[100wv] h-[87.57px] flex flex-col justify-center items-center'>
             <h1 className='text-[25.06px]'>Caring is the new marketing</h1>
             <p className='text-[#717171] text-center'>The Nextcent blog is the best place to read about the latest membership insights,<br></br> trends and more. See who's joining the community, read about how our community<br></br> are increasing their membership income and lot's more.​</p>
         </div>

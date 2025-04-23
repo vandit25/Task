@@ -3,22 +3,15 @@
 body{
   font-family: 'Inter', sans-serif;
   font-size: 11.14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center
 }
 h1{
   @apply font-semibold text-[#4D4D4D]  ;
 }
-.navbar{
-  @apply  h-[100vh] flex items-center justify-center;
-}
+
 .btn{
-  @apply  bg-[#4CAF4F] rounded-[2.78px] text-[11.14px] font-bold text-white
+  @apply  bg-[#4CAF4F] rounded-[2.78px]  font-bold text-white
 }
-.card{
-  @apply w-[208.12px] flex flex-col items-center justify-center shadow-[2.78px] rounded-[5.57px] shadow-[#ABBED1];
-}
+
 .footerLi{
  @apply text-[#fff] text-[9.74px];
 }

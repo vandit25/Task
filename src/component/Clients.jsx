@@ -11,11 +11,11 @@ import ClientLogo6 from '../assets/Logo (6).png'
 function Clients() {
   return (
     <div className='h-[132.92px] w-[100vw] flex-col flex justify-between items-center mt-[27.84px]  max-w-[1002px]'>  
-      <div className='h-[53.57px] w-[772.64px]'>
-        <div className='w-[100%] h-[31px] flex justify-center items-center'>
+      <div className='h-[53.57px] w-[100vw]'>
+        <div className=' h-[31px] flex justify-center items-center '>
             <h1 className='text-[25.06px]'>Our Clients</h1>
         </div>
-        <div className='w-[100%] h-[17px] flex justify-center items-center'>
+        <div className=' h-[17px] flex justify-center items-center'>
             <p className='text-[#717171]'>We have been working with some Fortune 500+ clients</p>
         </div>
       </div>
