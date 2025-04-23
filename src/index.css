@@ -11,7 +11,7 @@ h1{
   @apply font-semibold text-[#4D4D4D]  ;
 }
 .navbar{
-  @apply  h-[100%] flex items-center justify-center;
+  @apply  h-[100vh] flex items-center justify-center;
 }
 .btn{
   @apply  bg-[#4CAF4F] rounded-[2.78px] text-[11.14px] font-bold text-white
