@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Nav from './component/Nav'
 import Banner from './component/Banner'
-import Clients from './component/clients'
+import Clients from './component/Clients'
 import Community from './component/Community'
 import Unlock from './component/Unlock'
 import Achievements from './component/Achievements'
