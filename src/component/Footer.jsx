@@ -52,7 +52,7 @@ function Footer() {
                 <div className='w-[100%] h-[20px]'>
                     <p className='text-[13.92px] text-[#fff] font-semibold'>Stay up to date</p>
                 </div>
-                <input className=' h-[27.84px] bg-[#717171] rounded-[5px] text-[#ffff] md: max-sm:w-[40px] max-sm:h-[10px] max-sm:text-[4.3px] p-[8px]' type="text" placeholder='Your email address'/>
+                <input className=' h-[27.84px] w-[160px] bg-[#717171] rounded-[5px] text-[#ffff] mt-[50px] md: max-sm:w-[40px] max-sm:h-[10px] max-sm:text-[4.3px] p-[8px]' type="text" placeholder='Your email address'/>
             </div>
         </div>
       </div>
