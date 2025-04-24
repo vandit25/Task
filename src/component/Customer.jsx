@@ -13,11 +13,11 @@ function Customer() {
     <div className='w-[100vw] h-[271.47px] flex justify-around items-center bg-[#F5F7FA] mt-[33.41px] max-w-[1002px]  md: max-sm:w-[100vw]'>
       <img className='md: max-sm:w-[108px] max-sm:h-[108px]' src={img} alt="" />
       <div className='w-[520.66px] md: max-sm:w-[250px] h-[226.39px] flex flex-col justify-center'>
-        <p className='text-[#717171] flex-wrap'>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+        <p className='text-[#717171]'>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
         <h3 className='text-[13.92px] text-[#4CAF4F]'>Tim Smith </h3>
         <p className='text-[#89939E]'>British Dragon Boat Racing Association</p>
-        <div className='w-[520.66px] h-[33.41px]   flex justify-between items-center p max-sm:w-[250px]'>
-          <div className='w-[343.16px] h-[33.41px] flex justify-between items-center '>
+        <div className='w-[520.66px] min-h-[33.41px]   flex justify-between items-center p max-sm:w-[250px]'>
+          <div className='w-[343.16px] min-h-[33.41px] flex justify-between items-center '>
             <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo}/>
             <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo1}/>
             <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo2}/>
