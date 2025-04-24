@@ -11,12 +11,12 @@ function Updates() {
             <h1 className='text-[25.06px]'>Caring is the new marketing</h1>
             <p className='text-[#717171] text-center'>The Nextcent blog is the best place to read about the latest membership insights,<br></br> trends and more. See who's joining the community, read about how our community<br></br> are increasing their membership income and lot's more.​</p>
         </div>
-        <div className='w-[100%] h-[255.15px] flex justify-between items-center pl-[100px] pr-[100px] mt-[11.14px]'>
-            <div className='w-[256.15px] h-[100%] relative flex flex-col items-center'>
-                <img className='absolute' src={img}/>
-                <div className='absolute w[100%] h-[100%] flex flex-col justify-end'>
-                    <div className=' w-[220.65px] h-[123.55px] bg-[#F5F7FA] flex flex-col justify-between'>
-                        <p className='text-[13.92px] font-semibold text-[#717171] text-center mt-[11.14px]'>Creating Streamlined Safeguarding Processes with OneRen</p>
+        <div className='w-[100%] h-[255.15px] flex justify-between items-center pl-[100px] pr-[100px] mt-[11.14px] max-sm:h-[122px] max-sm:w-[480px]'>
+            <div className='w-[256.15px] h-[100%] relative flex flex-col items-center max-sm:h-[123px]'>
+                <img className='absolute md:max-sm:h-[95px] max-sm:w-[122px]' src={img}/>
+                <div className='absolute w[100%] h-[100%] flex flex-col justify-end md: max-sm:h-[30px] max-sm:w-[120px] max-sm:top-[80px] max-sm:z-[1]'>
+                    <div className=' w-[220.65px] h-[123.55px] bg-[#F5F7FA] flex flex-col justify-between md: max-sm:w-[100px]  '>
+                        <p className='text-[13.92px] font-semibold text-[#717171] text-center mt-[11.14px] flex-wrap'>Creating Streamlined Safeguarding Processes with OneRen</p>
                         <div className='w-[198.38px] h-[31.14px] flex justify-center items-center'>
                             <p className='text-[#4CAF4F] text-[13.92px] font-semibold mr-[5.57px]'>Readmore</p>
                             <i class="fa-solid fa-arrow-right text-[#4CAF4F]"></i>
@@ -24,10 +24,10 @@ function Updates() {
                     </div>
                 </div>
             </div>
-            <div className='w-[256.15px] h-[100%] relative flex flex-col items-center'>
-                <img className='absolute' src={img2}/>
-                <div className='absolute w[100%] h-[100%] flex flex-col justify-end'>
-                    <div className=' w-[220.65px] h-[123.55px] bg-[#F5F7FA] flex flex-col justify-between'>
+            <div className='w-[256.15px] h-[100%] relative flex flex-col items-center md: max-sm:h-[123px]'>
+                <img className='absolute md:max-sm:h-[95px] max-sm:w-[122px]' src={img2}/>
+                <div className='absolute w[100%] h-[100%] flex flex-col justify-end md: max-sm:h-[30px] max-sm:w-[120px] max-sm:top-[80px] max-sm:z-[1]'>
+                    <div className=' w-[220.65px] h-[123.55px] bg-[#F5F7FA] flex flex-col justify-between md: max-sm:w-[100px]'>
                         <p className='text-[13.92px] font-semibold text-[#717171] text-center mt-[11.14px]'>What are your safeguarding<br></br> responsibilities and how can<br></br> you manage them?</p>
                         <div className='w-[198.38px] h-[31.14px] flex justify-center items-center'>
                             <p className='text-[#4CAF4F] text-[13.92px] font-semibold mr-[5.57px]'>Readmore</p>
@@ -36,10 +36,10 @@ function Updates() {
                     </div>
                 </div>
             </div>
-            <div className='w-[256.15px] h-[100%] relative flex flex-col items-center'>
-                <img className='absolute' src={img3}/>
-                <div className='absolute w[100%] h-[100%] flex flex-col justify-end'>
-                    <div className=' w-[220.65px] h-[123.55px] bg-[#F5F7FA] flex flex-col justify-between'>
+            <div className='w-[256.15px] h-[100%] relative flex flex-col items-center md: max-sm:h-[123px]'>
+                <img className='absolute md:max-sm:h-[95px] max-sm:w-[122px]' src={img3}/>
+                <div className='absolute w[100%] h-[100%] flex flex-col justify-end md: max-sm:h-[30px] max-sm:w-[120px] max-sm:top-[80px] max-sm:z-[1]'>
+                    <div className=' w-[220.65px] h-[123.55px] bg-[#F5F7FA] flex flex-col justify-between md: max-sm:w-[100px]'>
                         <p className='text-[13.92px] font-semibold text-[#717171] text-center mt-[11.14px]'>Revamping the Membership<br></br> Model with Triathlon<br></br> Australia</p>
                         <div className='w-[198.38px] h-[31.14px] flex justify-center items-center'>
                             <p className='text-[#4CAF4F] text-[13.92px] font-semibold mr-[5.57px]'>Readmore</p>

@@ -19,7 +19,7 @@ function Clients() {
             <p className='text-[#717171]'>We have been working with some Fortune 500+ clients</p>
         </div>
       </div>
-      <div className='h-[68.21px] w-[801.87px] md: max-sm:w-[384.61px]  flex justify-between items-center'>
+      <div className='h-[68.21px] w-[60vw] md: max-sm:w-[384.61px]  flex justify-between items-center'>
         <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo}/>
         <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo1}/>
         <img className='md: max-sm:w-[16px] max-sm:h-[16px]' src={ClientLogo2}/>

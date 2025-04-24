@@ -16,6 +16,7 @@ h1{
  @apply text-[#fff] text-[9.74px];
 }
 @media (max-width: 480px) {
+  
   p{
     font-size: 4.67px;
   }

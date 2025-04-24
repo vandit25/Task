@@ -12,11 +12,11 @@ function Footer() {
         <button className='btn w-[124.25px] h-[36.49px]'>Get a Demo <i class="fa-solid fa-arrow-right"></i> </button>
       </div>
       <div className='w-[100%] h-[229.21px] bg-[#263238] flex justify-around items-center'>
-        <div className='w-[243.62px] h-[131.58px] flex flex-col justify-between'>
+        <div className='w-[243.62px] h-[131.58px] flex flex-col justify-between md:max-sm:w-[116px]'>
             <img className='w-[132.95px] h-[20.65px] md: max-sm:w-[63px] max-sm:h-[10px]' src={logo}/>
             <p className='text-[#FFFF] text-[9.75px] font-normal'>Copyright © 2020 Landify UI Kit.</p>
             <p className='text-[#FFFF] text-[9.75px] font-normal'>All rights reserved</p>
-            <div className='h-[22.27] w-[122.50px] flex justify-between'>
+            <div className='h-[22.27] w-[122.50px] md: max-sm:w-[40px] flex justify-between'>
                 <img className='max-sm:w-[18px] max-sm:h-[10px]' src={social2} alt="" />
                 <img className='max-sm:w-[18px] max-sm:h-[10px]' src={social1} alt="" />
                 <img className='max-sm:w-[18px] max-sm:h-[10px]' src={social} alt="" />
@@ -37,10 +37,10 @@ function Footer() {
                 </div>
             </div>
             <div className='w-[111.37px] h-[140.12px] flex flex-col justify-between'>
-                <div className='w-[100%] h-[20px]'>
+                <div className='w-[100vw] h-[20px]'>
                     <p className='text-[13.92px] text-[#fff] font-semibold'>Support</p>
                 </div>
-                <div className='w-[100%] h-[103.41px] flex flex-col justify-between'>
+                <div className='w-[100vw] h-[103.41px] flex flex-col justify-between md: max-sm:w-[85px]'>
                     <p className='footerLi'>Help center</p>
                     <p className='footerLi'>Terms of service</p>
                     <p className='footerLi'>Legal</p>
@@ -48,11 +48,11 @@ function Footer() {
                     <p className='footerLi'>Status</p>
                 </div>
             </div>
-            <div className='w-[177.49px] h-[64.55px] flex flex-col justify-between'>
+            <div className='w-[85px] h-[64.55px] flex flex-col justify-between'>
                 <div className='w-[100%] h-[20px]'>
                     <p className='text-[13.92px] text-[#fff] font-semibold'>Stay up to date</p>
                 </div>
-                <input className=' h-[27.84px] bg-[#717171] rounded-[5px] text-[#ffff] md: max-sm:w-[85px]' type="text" placeholder='Your email address'/>
+                <input className=' h-[27.84px] bg-[#717171] rounded-[5px] text-[#ffff] md: max-sm:w-[40px] max-sm:h-[10px] max-sm:text-[4.3px] p-[8px]' type="text" placeholder='Your email address'/>
             </div>
         </div>
       </div>

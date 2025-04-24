@@ -3,8 +3,8 @@ import Illustration from '../assets/Illustration.png'
 
 function Banner() {
   return (
-    <div className='h-[416.95px] w-[100vw] bg-[#F5F7FA] flex justify-around items-center max-w-[1002px]'>
-      <div className='h-[192.9px] w-[457.32px]'>
+    <div className=' w-[100vw] bg-[#F5F7FA] flex justify-around items-center max-w-[1002px] md: max-sm:h-[199px]'>
+      <div className='h-[192.9px] w-[457.32px] flex flex-col justify-center'>
         <div>
           <h1 className='text-[#4D4D4D] text-[44.55px] font-semibold'>Lessons and insights</h1>
           <h2 className='text-[#4CAF4F] text-[44.55px] font-semibold'>from 8 years</h2>
